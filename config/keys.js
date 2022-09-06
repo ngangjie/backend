@@ -1,7 +1,7 @@
 
 if(process.env.NODE_ENV === "production"){
     module.exports ={
-        mongoURI:'mongodb+srv://hamantm:551250111@cluster0.ciztrln.mongodb.net/?retryWrites=true&w=majority',
+        mongoURI:'mongodb+srv://haman:551250111@hamanblog.1p8irif.mongodb.net/?retryWrites=true&w=majority',
         secret:'mysecret'
     }
 } else{
